@@ -5,14 +5,14 @@
         </a> </div>
     <div class="menu">
         <ul id="menu" >
-            <li id="menu-home" ><a href="index.html"><i class="fa fa-tachometer"></i><span>Dashboard</span></a></li>
-            <li><a href="#"><i class="fa fa-cogs"></i><span>Components</span><span class="fa fa-angle-right" style="float: right"></span></a>
+            <li id="menu-home" ><a href="{{route('admin')}}"><i class="fa fa-tachometer"></i><span>Dashboard</span></a></li>
+            <li><a href="{{route('admin_category')}}"><span>Categories</span><span class="fa fa-angle-right" style="float: right"></span></a>
                 <ul>
-                    <li><a href="grids.html">Grids</a></li>
+                    <li><a href="{{route('admin_category_add')}}">Category Add</a></li>
                     <li><a href="portlet.html">Portlets</a></li>
                 </ul>
             </li>
-            <li id="menu-comunicacao" ><a href="#"><i class="fa fa-book nav_icon"></i><span>Element</span><span class="fa fa-angle-right" style="float: right"></span></a>
+            <li id="menu-comunicacao" ><a href="#"><span>Products</span></a>
                 <ul id="menu-comunicacao-sub" >
                     <li id="menu-mensagens" style="width: 120px" ><a href="buttons.html">Buttons</a>
                     </li>

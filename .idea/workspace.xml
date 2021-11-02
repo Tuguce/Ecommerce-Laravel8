@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12e62b58-233c-4968-9eb2-dd613a3b6841" name="Default Changelist" comment="" />
+    <list default="true" id="12e62b58-233c-4968-9eb2-dd613a3b6841" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a75b3d47-1768-4b72-9f82-992800212f6d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a75b3d47-1768-4b72-9f82-992800212f6d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/admin.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +19,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -142,10 +154,15 @@
     <property name="DatabaseDriversLRU" value="mariadb&#10;mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Ecommerce\Project\resources\views\admin" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -192,7 +209,24 @@
       <workItem from="1635132839067" duration="1939000" />
       <workItem from="1635200601787" duration="7325000" />
       <workItem from="1635221249856" duration="13666000" />
-      <workItem from="1635261532889" duration="785000" />
+      <workItem from="1635261532889" duration="870000" />
+      <workItem from="1635264890632" duration="715000" />
+      <workItem from="1635292676037" duration="777000" />
+      <workItem from="1635318654001" duration="7511000" />
+      <workItem from="1635355436065" duration="16255000" />
+      <workItem from="1635381840257" duration="13884000" />
+      <workItem from="1635412290731" duration="1223000" />
+      <workItem from="1635413644281" duration="463000" />
+      <workItem from="1635414184659" duration="290000" />
+      <workItem from="1635430120067" duration="4872000" />
+      <workItem from="1635515386653" duration="2240000" />
+      <workItem from="1635519177563" duration="1186000" />
+      <workItem from="1635549027047" duration="8436000" />
+      <workItem from="1635630394253" duration="5840000" />
+      <workItem from="1635689854864" duration="3005000" />
+      <workItem from="1635735691007" duration="11714000" />
+      <workItem from="1635811500386" duration="3790000" />
+      <workItem from="1635815913768" duration="1512000" />
     </task>
     <servers />
   </component>
@@ -200,25 +234,50 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="550" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1635216691652">
+    <state x="309" y="41" key="#Inspections" timestamp="1635412638739">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="550" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1635216691652" />
+    <state x="309" y="41" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1635412638739" />
+    <state x="349" y="30" width="816" height="657" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1635372107353">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="349" y="30" width="816" height="657" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1635372107353" />
     <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1634786965608">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1634786965608" />
-    <state x="518" y="286" key="NewPhpFileDialog" timestamp="1635041265116">
+    <state x="518" y="286" key="NewPhpFileDialog" timestamp="1635365317747">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="518" y="286" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1635041265116" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1634786900612">
+    <state x="518" y="286" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1635365317747" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1635265587727">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1634786900612" />
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1635265587727" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1635233669967">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1635233669967" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/admin/category.blade.php</url>
+          <line>33</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/admin/category_add.blade.php</url>
+          <line>125</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/admin/category_add.blade.php</url>
+          <line>122</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

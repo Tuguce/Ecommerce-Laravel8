@@ -3,5 +3,5 @@
     adminHome
 @endsection
 @section('content')
-    hello
+
 @endsection
