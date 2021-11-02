@@ -19,10 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12e62b58-233c-4968-9eb2-dd613a3b6841" name="Default Changelist" comment="added admin category">
+    <list default="true" id="12e62b58-233c-4968-9eb2-dd613a3b6841" name="Default Changelist" comment="1">
+      <change afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_10_26_235850_create_categories_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_10_27_220530_category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/_blank.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/category.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/category_add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/category_edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +244,7 @@
       <workItem from="1635689854864" duration="3005000" />
       <workItem from="1635735691007" duration="11714000" />
       <workItem from="1635811500386" duration="3790000" />
-      <workItem from="1635815913768" duration="2648000" />
+      <workItem from="1635815913768" duration="3766000" />
     </task>
     <task id="LOCAL-00001" summary="added admin category">
       <created>1635818034090</created>
@@ -248,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635818034090</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1">
+      <created>1635819048220</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635819048220</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +279,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added admin category" />
-    <option name="LAST_COMMIT_MESSAGE" value="added admin category" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="41" key="#Inspections" timestamp="1635412638739">
@@ -282,10 +295,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="336" height="442" key="Diff.GoToChangePopup/0.0.1366.728@0.0.1366.728" timestamp="1635818000993" />
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1635818126818">
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1635819893169">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1635818126818" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1635819893169" />
     <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1634786965608">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -298,10 +311,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1635265587727" />
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1635818118631">
+    <state x="569" y="277" key="VCS.EditChangelistDialog" timestamp="1635819282236">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1635818118631" />
+    <state x="569" y="277" key="VCS.EditChangelistDialog/0.0.1366.728@0.0.1366.728" timestamp="1635819282236" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1635819835594">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1635819835594" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1635233669967">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
