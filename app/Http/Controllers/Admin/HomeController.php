@@ -24,6 +24,7 @@ class HomeController extends Controller
 
         if ($request->isMethod('post'))
         {
+            //
             $credentials = $request->only('email', 'password');
             if (Auth::attempt($credentials)) {
                 //db de sorgulandığı yer
