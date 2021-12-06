@@ -12,9 +12,9 @@
                     <li><a href="portlet.html">Portlets</a></li>
                 </ul>
             </li>
-            <li id="menu-comunicacao" ><a href="#"><span>Products</span></a>
+            <li id="menu-comunicacao" ><a href="{{route('admin_products')}}"><span>Products</span></a>
                 <ul id="menu-comunicacao-sub" >
-                    <li id="menu-mensagens" style="width: 120px" ><a href="buttons.html">Buttons</a>
+                    <li id="menu-mensagens" style="width: 120px" ><a href="{{route('admin_product_add')}}">Product Add</a>
                     </li>
                     <li id="menu-arquivos" ><a href="typography.html">Typography</a></li>
                     <li id="menu-arquivos" ><a href="icons.html">Icons</a></li>

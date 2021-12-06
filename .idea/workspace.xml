@@ -19,15 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12e62b58-233c-4968-9eb2-dd613a3b6841" name="Default Changelist" comment="1">
-      <change afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_10_26_235850_create_categories_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_10_27_220530_category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/_blank.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/category.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/category_add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/category_edit.blade.php" afterDir="false" />
+    <list default="true" id="12e62b58-233c-4968-9eb2-dd613a3b6841" name="Default Changelist" comment="admin category 2">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_11_03_004339_create_products_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_11_03_040221_product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/product.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/product_add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/product_edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a75b3d47-1768-4b72-9f82-992800212f6d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a75b3d47-1768-4b72-9f82-992800212f6d.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,12 +169,16 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1qol4AqFQM4aXZC1BajTX8GAq7Z" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mariadb&#10;mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -244,7 +254,22 @@
       <workItem from="1635689854864" duration="3005000" />
       <workItem from="1635735691007" duration="11714000" />
       <workItem from="1635811500386" duration="3790000" />
-      <workItem from="1635815913768" duration="3766000" />
+      <workItem from="1635815913768" duration="4097000" />
+      <workItem from="1635896582646" duration="4072000" />
+      <workItem from="1635943180518" duration="3707000" />
+      <workItem from="1635999461341" duration="3544000" />
+      <workItem from="1636124647743" duration="2701000" />
+      <workItem from="1636376147607" duration="983000" />
+      <workItem from="1636561515760" duration="141000" />
+      <workItem from="1637968146145" duration="2904000" />
+      <workItem from="1638034623685" duration="5802000" />
+      <workItem from="1638069473933" duration="1419000" />
+      <workItem from="1638312382615" duration="2879000" />
+      <workItem from="1638387932307" duration="1625000" />
+      <workItem from="1638493273769" duration="2616000" />
+      <workItem from="1638567536149" duration="9134000" />
+      <workItem from="1638710673943" duration="593000" />
+      <workItem from="1638744395152" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="added admin category">
       <created>1635818034090</created>
@@ -260,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635819048220</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="admin category 2">
+      <created>1635819926218</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1635819926218</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,21 +308,32 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added admin category" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="admin category 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin category 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="41" key="#Inspections" timestamp="1635412638739">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="309" y="41" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1635412638739" />
-    <state x="349" y="30" width="816" height="657" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1635372107353">
+    <state x="109" y="204" key="#SQL_Dialects" timestamp="1636036638511">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="349" y="30" width="816" height="657" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1635372107353" />
+    <state x="109" y="204" key="#SQL_Dialects/0.0.1366.728@0.0.1366.728" timestamp="1636036638511" />
+    <state x="349" y="30" width="816" height="657" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1635912311417">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="349" y="30" width="816" height="657" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1635912311417" />
+    <state x="462" y="117" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1636036385485">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="117" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1636036385485" />
     <state width="336" height="442" key="Diff.GoToChangePopup" timestamp="1635818000993">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -315,10 +358,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="569" y="277" key="VCS.EditChangelistDialog/0.0.1366.728@0.0.1366.728" timestamp="1635819282236" />
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1635819835594">
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1635819974543">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1635819835594" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1635819974543" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1635233669967">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

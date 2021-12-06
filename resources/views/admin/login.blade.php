@@ -24,9 +24,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 <div class="login-page">
     <div class="login-main">
-        <div class="login-head">
-            <h1>Login</h1>
-        </div>
+
         <div class="login-block">
             <form action="{{route('admin_logincheck')}}" method="post">
                 @csrf
