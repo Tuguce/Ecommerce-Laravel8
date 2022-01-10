@@ -28,6 +28,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <script src="{{asset('assets')}}lib/html5shiv/html5shiv.js"></script>
     <!-- Chartinator  -->
     <script src="{{asset('assets')}}/admin/js/chartinator.js" ></script>
+    @yield('javascript')
     <script type="text/javascript">
 
         jQuery(function ($) {

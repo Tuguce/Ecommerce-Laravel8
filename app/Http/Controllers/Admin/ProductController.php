@@ -8,6 +8,7 @@ use App\Models\Product;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Storage;
 
 class ProductController extends Controller
 {
@@ -43,7 +44,7 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-        $data=new Product();
+        $data=new Product;
         $data->category_id= $request->input('category_id');
         $data->title= $request->input('title');
         $data->description=$request->input('description');
@@ -54,7 +55,8 @@ class ProductController extends Controller
         $data->detail=$request->input('detail');
         $data->tax=(int)$request->input('tax');
         $data->slug=$request->input('slug');
-        $data->slug=$request->input('status');
+        $data->status=$request->input('status');
+        $data->image = Storage::putfile('images',$request->file('image'));
         $data->save();
         return redirect()->route('admin_products');
 
@@ -77,16 +79,19 @@ class ProductController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Product  $product
-     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\Http\Response
+     * @param \App\Models\Product $product
+     * @param $id
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|void
      */
     public function edit(Product $product,$id)
     {
-        $product = Product::find($id);
-
-        $categorylist = Category::all();
-        return view ('admin.product_edit',['ct'=>$product,'cl'=>$categorylist]);
-        //echo "edit cate";
+        $productlist=Product::all();
+        $data = $productlist->find($id);
+        //$data= DB::table('products')->get()->where('id',$id);
+        //$data=Product::find($id);
+        $datalist = Category::all();
+        return view ('admin.product_edit',['pr'=>$data,'datalist'=>$datalist]);
+        //echo ($data);
     }
 
     /**
@@ -94,11 +99,14 @@ class ProductController extends Controller
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  \App\Models\Product  $product
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\RedirectResponse
      */
-    public function update(Request $request, Product $product,$id)
+    public function update(Request $request,Product $product,$id)
     {
-        $data=Product::find($id);
+        //$datalist=Product::all();
+        //$data=$datalist->find($id);
+        $data= Product::find($id);
+        //$data=new Product($id);
         $data->category_id= $request->input('category_id');
         $data->title= $request->input('title');
         $data->description=$request->input('description');
@@ -109,7 +117,8 @@ class ProductController extends Controller
         $data->detail=$request->input('detail');
         $data->tax=(int)$request->input('tax');
         $data->slug=$request->input('slug');
-        $data->slug=$request->input('status');
+        $data->status=$request->input('status');
+        $data->image = Storage::putfile('images',$request->file('image'));
         $data->save();
         return redirect()->route('admin_products');
         //

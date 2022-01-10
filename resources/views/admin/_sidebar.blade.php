@@ -16,8 +16,7 @@
                 <ul id="menu-comunicacao-sub" >
                     <li id="menu-mensagens" style="width: 120px" ><a href="{{route('admin_product_add')}}">Product Add</a>
                     </li>
-                    <li id="menu-arquivos" ><a href="typography.html">Typography</a></li>
-                    <li id="menu-arquivos" ><a href="icons.html">Icons</a></li>
+
                 </ul>
             </li>
             <li><a href="maps.html"><i class="fa fa-map-marker"></i><span>Maps</span></a></li>

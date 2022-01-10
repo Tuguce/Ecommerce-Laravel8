@@ -74,6 +74,8 @@
                     <th>Price</th>
 
                     <th>Status</th>
+                    <th>Image</th>
+                    <th>Image Gallery</th>
                     <th>Edit</th>
                     <th>Delete</th>
 
@@ -89,6 +91,13 @@
                     <td> {{$pr->quantity }}</td>
                     <td>{{$pr->price}}</td>
                     <td>{{$pr->status}}</td>
+                    <td>
+                        @if ($pr->image)
+                            <img src="{{Storage::url(($pr->image))}}" height="30" alt="">
+                        @endif
+                    </td>
+                    <td><a href="{{route('admin_image_add',['id' => $pr->id])}}" onclick="return !window.open(this.href, '','top=50 left=100 width=1100,height=700')">
+                            gallery add</a></td>
 
                     <td><a href="{{route('admin_product_edit',['id'=>$pr->id])}}">edit</a></td>
                     <td><a href="{{route('admin_product_delete',['id'=>$pr->id])}}" onclick="return confirm('Delete ! are you sure?')">
@@ -105,8 +114,9 @@
                     <th>Titles</th>
                     <th>Quantity</th>
                     <th>Price</th>
-
                     <th>Status</th>
+                    <th>Image</th>
+                    <th>Image Gallery</th>
                     <th>Edit</th>
                     <th>Delete</th>
 

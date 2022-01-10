@@ -19,20 +19,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12e62b58-233c-4968-9eb2-dd613a3b6841" name="Default Changelist" comment="admin category 2">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_11_03_004339_create_products_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_11_03_040221_product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/product.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/product_add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/product_edit.blade.php" afterDir="false" />
+    <list default="true" id="12e62b58-233c-4968-9eb2-dd613a3b6841" name="Default Changelist" comment="admin product added">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ImageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_12_17_222434_create_images_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_12_17_222638_image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/image_add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/a75b3d47-1768-4b72-9f82-992800212f6d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a75b3d47-1768-4b72-9f82-992800212f6d.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/category_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/category_edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/product.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/product_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/product_add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/product_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/product_edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -269,7 +273,39 @@
       <workItem from="1638493273769" duration="2616000" />
       <workItem from="1638567536149" duration="9134000" />
       <workItem from="1638710673943" duration="593000" />
-      <workItem from="1638744395152" duration="599000" />
+      <workItem from="1638744395152" duration="2308000" />
+      <workItem from="1638925754560" duration="3481000" />
+      <workItem from="1639019718548" duration="790000" />
+      <workItem from="1639064343645" duration="4467000" />
+      <workItem from="1639192748911" duration="2467000" />
+      <workItem from="1639346203583" duration="3328000" />
+      <workItem from="1639413867747" duration="10522000" />
+      <workItem from="1639455294410" duration="1179000" />
+      <workItem from="1639456508808" duration="501000" />
+      <workItem from="1639516023603" duration="1386000" />
+      <workItem from="1639691730344" duration="637000" />
+      <workItem from="1639777935687" duration="609000" />
+      <workItem from="1639779293540" duration="5349000" />
+      <workItem from="1639873850442" duration="600000" />
+      <workItem from="1639966803085" duration="616000" />
+      <workItem from="1640115698537" duration="4732000" />
+      <workItem from="1640273697522" duration="2209000" />
+      <workItem from="1640381166150" duration="3641000" />
+      <workItem from="1640398800920" duration="6005000" />
+      <workItem from="1640465162411" duration="388000" />
+      <workItem from="1640479860220" duration="3843000" />
+      <workItem from="1640730851922" duration="3907000" />
+      <workItem from="1640881337599" duration="596000" />
+      <workItem from="1640905519509" duration="596000" />
+      <workItem from="1641155528100" duration="4000" />
+      <workItem from="1641173306583" duration="2270000" />
+      <workItem from="1641256312652" duration="2592000" />
+      <workItem from="1641348914655" duration="596000" />
+      <workItem from="1641434645036" duration="600000" />
+      <workItem from="1641678090291" duration="5919000" />
+      <workItem from="1641772197598" duration="4120000" />
+      <workItem from="1641776406525" duration="720000" />
+      <workItem from="1641826395899" duration="1403000" />
     </task>
     <task id="LOCAL-00001" summary="added admin category">
       <created>1635818034090</created>
@@ -292,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635819926218</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="admin product added">
+      <created>1638750902012</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638750902012</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,37 +358,42 @@
     <MESSAGE value="added admin category" />
     <MESSAGE value="1" />
     <MESSAGE value="admin category 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="admin category 2" />
+    <MESSAGE value="admin product added" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin product added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="309" y="41" key="#Inspections" timestamp="1635412638739">
+    <state x="309" y="41" key="#Inspections" timestamp="1640407455893">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="309" y="41" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1635412638739" />
+    <state x="309" y="41" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1640407455893" />
     <state x="109" y="204" key="#SQL_Dialects" timestamp="1636036638511">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="109" y="204" key="#SQL_Dialects/0.0.1366.728@0.0.1366.728" timestamp="1636036638511" />
-    <state x="349" y="30" width="816" height="657" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1635912311417">
+    <state x="349" y="30" width="816" height="657" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1639780632022">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="349" y="30" width="816" height="657" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1635912311417" />
-    <state x="462" y="117" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1636036385485">
+    <state x="349" y="30" width="816" height="657" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1639780632022" />
+    <state x="462" y="117" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1640385980681">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="117" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1636036385485" />
+    <state x="462" y="117" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1640385980681" />
     <state width="336" height="442" key="Diff.GoToChangePopup" timestamp="1635818000993">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="336" height="442" key="Diff.GoToChangePopup/0.0.1366.728@0.0.1366.728" timestamp="1635818000993" />
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1635819893169">
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1638750928868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1635819893169" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1638750928868" />
     <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1634786965608">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1634786965608" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1639456672430">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1639456672430" />
     <state x="518" y="286" key="NewPhpFileDialog" timestamp="1635365317747">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -354,14 +402,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1635265587727" />
-    <state x="569" y="277" key="VCS.EditChangelistDialog" timestamp="1635819282236">
+    <state x="569" y="277" key="VCS.EditChangelistDialog" timestamp="1638750607732">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="569" y="277" key="VCS.EditChangelistDialog/0.0.1366.728@0.0.1366.728" timestamp="1635819282236" />
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1635819974543">
+    <state x="569" y="277" key="VCS.EditChangelistDialog/0.0.1366.728@0.0.1366.728" timestamp="1638750607732" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1638750917530">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1635819974543" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1638750917530" />
+    <state x="582" y="239" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1639780236627">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="582" y="239" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1366.728@0.0.1366.728" timestamp="1639780236627" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1635233669967">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
